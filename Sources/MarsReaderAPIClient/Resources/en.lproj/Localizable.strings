@@ -1,0 +1,9 @@
+/*
+  Localizable.strings
+  MarsReader
+
+  Created by Paul Bonneville on 10/16/21.
+
+*/
+
+"invalidURLString" = "Invalid URL string. Articles were not retrieved.";
