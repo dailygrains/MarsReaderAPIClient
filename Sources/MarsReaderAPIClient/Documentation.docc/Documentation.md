@@ -4,12 +4,10 @@ A fictional API client Swift Package intended to interact with the imaginary Mar
 
 ## Overview
 
-At this point in a project like this, a separate package is not really waranted, but I wanted to test out working with
-packages locally. This package is not imported through the SPM, but is stored in a folder off the root of this project
-and "dragged" into this project. This recognizes the package and functions as if it were imported via SPM, while 
-allowing for direct editing of the code.
+Created this package as an example of creation and deployment of a Swift Package as well as
+including it from a remote repository. The code itself does not necessarily warrant its own
+package at this point, but it is as good a candidate as any :)
 
-When local package code is eventually migrated to an actual repo for distribution, you can add it to this project
-via SPM without needing to modify the app.
-
-I also experimented with the new DocC tooling in Xcode 13.
+Also experimenting with the new DocC tooling in Xcode 13 for Swift Packages. Use
+`shift+control+command+d` to have the package generate its documentation and launch the
+Developer Documentation window. Package documentation will show up at the top of the list.
